@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+header {
+	overflow-x: hidden;
+	margin: 0;
+	text-decoration: none;
+}
+
+#banner1 img {
+	position: relative;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 70px;
+}
+
+#text1 p {
+	position: relative;
+	text-align: center;
+	font-size: 50px;
+	font-family: "Eras ITC";
+	font-weight: bold;
+	margin-top: -70px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	text-shadow: -0.06em 0 2px #F22613,  0.06em 0 2px #00FFFF;
+}
+
+#menu {
+	min-width: 400px;
+	width: 100%;
+	height: 80px;
+	position: relative;
+	background-color: #3d67ff;
+	margin-top: -50px;
+}
+
+#menu ul {
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: 3px;
+	margin-left: -60px;
+}
+
+#menu ul li {
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+
+#menu ul li a {
+	text-align: center;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: #66f6ff;
+	height : 30px;
+	width: 100px;
+	color: black;
+	text-decoration: none;
+}
+
+#menu ul li a:hover {
+	color: white;
+	background-color: #1900ff;
+}
+
+#banner2 {
+	display: block;
+	background-color: #66f6ff;
+	height: 30px;
+	width: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	margin: 0;
+	text-decoration: none;
+	background-color: #333333;
+}
+
+#contenuprincipal img {
+	height: 25%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#contenuprincipal p {
+	font-family: "Bookman Old Style";
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	top : 10px;
+	color: #000000;
+}
+
+#banner3 ul input {
+	float: left;
+	left: 60%;
+	position: relative;
+	margin-left: -60px;
+}
+
+#banner3 ul {
+	float: left;
+	left: 50%;
+	position: relative;
+	margin-left: -60px;
+}
+
+#banner3 ul li {
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+
+#banner3 ul li a {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 1%;
+	display: inline-block;
+	background-color: #66f6ff;
+	height : 27px;
+	width: 800px;
+	color: black;
+	text-decoration: none;
+	box-shadow: 5px 4px 10px #00000095;
+}
+
+#banner3 ul li a:hover {
+	color: white;
+	background-color: #1900ff;
+}
+
+footer {
+	overflow-x: hidden;
+	margin: 0;
+	text-decoration: none;
+}
+
+#fin {
+	text-align: center;
+	display: block;
+	background-color: #66f6ff;
+	height: 50px;
+	margin-top: 100px;
+}
+
+#fin p {
+	color: #262626;
+	font-weight: bold;
+	position: relative;
+	top : 16px;
+}
